@@ -1,0 +1,69 @@
+[debug] [2022-08-29T11:10:28.149Z] ----------------------------------------------------------------------
+[debug] [2022-08-29T11:10:28.151Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Simon Li\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-29T11:10:28.151Z] CLI Version:   11.8.0
+[debug] [2022-08-29T11:10:28.151Z] Platform:      win32
+[debug] [2022-08-29T11:10:28.151Z] Node Version:  v16.15.1
+[debug] [2022-08-29T11:10:28.152Z] Time:          Mon Aug 29 2022 23:10:28 GMT+1200 (New Zealand Standard Time)
+[debug] [2022-08-29T11:10:28.152Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-29T11:10:28.193Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-29T11:10:28.194Z] > authorizing via signed-in user (li.simon021@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Simon Li\Desktop\Mission Ready\VS Coding\working-search-bar
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-08-29T11:12:38.351Z] ----------------------------------------------------------------------
+[debug] [2022-08-29T11:12:38.353Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Simon Li\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-08-29T11:12:38.353Z] CLI Version:   11.8.0
+[debug] [2022-08-29T11:12:38.353Z] Platform:      win32
+[debug] [2022-08-29T11:12:38.353Z] Node Version:  v16.15.1
+[debug] [2022-08-29T11:12:38.354Z] Time:          Mon Aug 29 2022 23:12:38 GMT+1200 (New Zealand Standard Time)
+[debug] [2022-08-29T11:12:38.354Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-29T11:12:38.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-29T11:12:38.398Z] > authorizing via signed-in user (li.simon021@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Simon Li\Desktop\Mission Ready\VS Coding\working-search-bar
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-29T11:12:40.337Z] Using project from CLI flag: turners-search-bar
+[debug] [2022-08-29T11:12:40.339Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/turners-search-bar [none]
+[debug] [2022-08-29T11:12:40.934Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/turners-search-bar 200
+[debug] [2022-08-29T11:12:40.935Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/turners-search-bar {"projectId":"turners-search-bar","projectNumber":"450762673262","displayName":"Turners-Search-Bar","name":"projects/turners-search-bar","resources":{"hostingSite":"turners-search-bar"},"state":"ACTIVE","etag":"1_707d9c75-4ca8-41c9-8dbc-2afac177d512"}
+[info] i  Using project turners-search-bar (Turners-Search-Bar) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
