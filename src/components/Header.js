@@ -26,7 +26,7 @@ const Header = () => {
 		e.preventDefault();
 		console.log(inputQuery);
 		try {
-			const response = await Axios.post("http://localhost:4001/search", {
+			const response = await Axios.post("https://turners-search-bar.web.app/search", {
 				query: inputQuery,
 			});
 			const data = response.data;
